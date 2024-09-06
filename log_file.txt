@@ -1,0 +1,315 @@
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=
++ [[ 0 -lt 1 ]]
++ echo 'Host Name wasn'\''t given '
+Host Name wasn't given 
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
+./nmap_scann.sh: línea 29: error sintáctico cerca del elemento inesperado `else'
+./nmap_scann.sh: línea 29: `else '
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
+./nmap_scann.sh: línea 30: EOF inesperado mientras se buscaba un «)» coincidente
+./nmap_scann.sh: línea 41: error sintáctico: no se esperaba el final del archivo
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f host_file ]]
++ echo 'Host file not exists or is empty'
+Host file not exists or is empty
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f '' ]]
++ echo 'Host file not exists or is empty'
+Host file not exists or is empty
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+./nmap_scann.sh: command substitution: línea 31: error sintáctico cerca del elemento inesperado `('
+./nmap_scann.sh: command substitution: línea 31: `awk /google.com/ {match($0 /\([^]+\)/); print substr($0, RSTART+1, RLENGTH-2))}'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+./nmap_scann.sh: command substitution: línea 31: error sintáctico cerca del elemento inesperado `('
+./nmap_scann.sh: command substitution: línea 31: `awk /google.com/ {match($0 /\([^]+\)/); print substr($0, RSTART+1, RLENGTH-2)})'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ awk '/google.com/ {match($0, /\([^)]+\)/); print substr($0, RSTART+1, RLENGTH-2)}'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ awk '/google.com/ {match($0, /\([^)]+\)/); print substr($0, RSTART+1, RLENGTH-2)}'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ awk '/google.com / {match($0, /\([^)]+\)/); print substr($0, RSTART+1, RLENGTH-2)}'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
+./nmap_scann.sh: línea 30: EOF inesperado mientras se buscaba un «)» coincidente
+./nmap_scann.sh: línea 41: error sintáctico: no se esperaba el final del archivo
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  \(\K[^\)]*'
++ ip_addr=
++ echo 'Showing :'
+Showing :
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.251.218.142
++ echo 'Showing :142.251.218.142'
+Showing :142.251.218.142
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=
++ [[ 0 -lt 1 ]]
++ echo 'Host Name wasn'\''t given '
+Host Name wasn't given 
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
+./nmap_scann.sh: línea 31: se esperaba un operador binario condicional
+./nmap_scann.sh: línea 31: error sintáctico cerca de `~='
+./nmap_scann.sh: línea 31: `	if [[ ! "$ip_addr" ~= "" ]]; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.251.218.142
++ [[ ! 142.251.218.142 =~ '' ]]
++ echo 'IP addr not exists'
+IP addr not exists
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.251.218.142
++ [[ 142.251.218.142 =~ '' ]]
++ echo 'Showing ip'
+Showing ip
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.251.218.142
++ [[ 142.251.218.142 =~ '' ]]
++ echo 'Generating report for target 142.251.218.142'
+Generating report for target 142.251.218.142
++ nmap -sV 142.251.218.142
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
+./nmap_scann.sh: línea 22: : No existe el archivo o el directorio
++ [[ -f /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/hosts_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/hosts_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=
++ [[ '' =~ '' ]]
++ echo 'Generating report for target '
+Generating report for target 
++ nmap -sV ''
+Failed to resolve "".
+WARNING: No targets were specified, so 0 hosts scanned.
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ host_name=google.com
++ [[ 1 -lt 1 ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/traceroute_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/traceroute_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/traceroute_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.251.218.142
++ [[ 142.251.218.142 =~ '' ]]
++ echo 'Generating report for target 142.251.218.142'
+Generating report for target 142.251.218.142
++ nmap -sV 142.251.218.142
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ read -p 'Type the Host Name or IP Address' target_name
+Type the Host Name or IP Address+ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ read -p 'Type the Host Name or IP Address' target_name
+Type the Host Name or IP Address+ host_name=
++ [[ google.com =~ '' ]]
++ echo 'Host Name wasn'\''t given '
+Host Name wasn't given 
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ google.com =~ '' ]]
++ echo 'Host Name wasn'\''t given '
+Host Name wasn't given 
++ exit 1
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
+./nmap_scann.sh: línea 40: error sintáctico cerca del elemento inesperado `then'
+./nmap_scann.sh: línea 40: `		for port in common_ports; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
+./nmap_scann.sh: línea 40: error sintáctico cerca del elemento inesperado `then'
+./nmap_scann.sh: línea 40: `		for port in "$common_ports"; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
+./nmap_scann.sh: línea 40: error sintáctico cerca del elemento inesperado `then'
+./nmap_scann.sh: línea 40: `		for port in "${common_ports[@]}"; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
+./nmap_scann.sh: línea 39: error sintáctico cerca del elemento inesperado `then'
+./nmap_scann.sh: línea 39: `		for port in "${common_ports[@]}"; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
+./nmap_scann.sh: línea 39: error sintáctico cerca del elemento inesperado `then'
+./nmap_scann.sh: línea 39: `		for port in "${common_ports[@]}"; then'
++ report_file=/home/polo/networking/basic_networking/nmap/report_file.txt
++ hosts_file=/home/polo/networking/basic_networking/nmap/hosts_file.txt
++ traceroute_file=/home/polo/networking/basic_networking/nmap/traceroute_file.txt
++ target_name=google.com
++ [[ ! google.com =~ '' ]]
++ traceroute google.com
++ [[ -f /home/polo/networking/basic_networking/nmap/traceroute_file.txt ]]
++ [[ -s /home/polo/networking/basic_networking/nmap/traceroute_file.txt ]]
++ echo 'Preprocessing valid hosts....'
+Preprocessing valid hosts....
+++ cat /home/polo/networking/basic_networking/nmap/traceroute_file.txt
+++ grep -oP 'google\.com  *\(\K[^\)]*'
++ ip_addr=142.250.177.14
++ [[ 142.250.177.14 =~ '' ]]
++ echo 'Generating report for target 142.250.177.14'
+Generating report for target 142.250.177.14
++ common_ports=(22 80 443)
++ for port in "${common_ports[@]}"
++ nmap -p 22 --script vuln 142.250.177.14
++ for port in "${common_ports[@]}"
++ nmap -p 80 --script vuln 142.250.177.14
++ for port in "${common_ports[@]}"
++ nmap -p 443 --script vuln 142.250.177.14
++ echo 'Showing final report: /home/polo/networking/basic_networking/nmap/report_file.txt'
+Showing final report: /home/polo/networking/basic_networking/nmap/report_file.txt
